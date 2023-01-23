@@ -4,7 +4,9 @@ import React from 'react'
 
 const Layout = () => {
   return (
-    <main></main>
+    <main>
+      <Outlet/>
+    </main>
   )
 }
 
